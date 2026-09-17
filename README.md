@@ -7,7 +7,7 @@ and structured mesh validation.
 
 ## What Changed
 
-- A 108-line `SKILL.md` routes to focused references instead of loading one
+- A 100-ish line `SKILL.md` routes to focused references instead of loading one
   large instruction file for every task.
 - Checkpoints are risk-based: simple, fully specified parts can proceed in one
   pass, while uncertain fits and costly prints pause for review.
@@ -15,7 +15,7 @@ and structured mesh validation.
   calibration profiles.
 - Validation checks watertightness, winding, positive volume, connected
   components, bed contact, and area-weighted unsupported geometry.
-- The previous volume-ratio wall-thickness estimate and incorrect overhang
+- The previous volume-ratio wall-thickness estimate and overhang
   calculation are removed.
 
 ## Install
